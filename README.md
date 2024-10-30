@@ -1,5 +1,5 @@
 # labpy02
-Nama        : <p>
+Nama        : Ica Rizqiah <p>
 
 Kelas       : TI.24.A.5 <p>
 
@@ -50,6 +50,7 @@ Kondisi else:
 
 Jika pengguna bukan anggota (status_member bukan "Y"), maka `harga_akhir` diatur sama dengan `harga_tiket` tanpa diskon
 
+![foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20122909.png?raw=true)
 
 
 # Gambzr Flowchart
