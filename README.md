@@ -52,6 +52,51 @@ Jika pengguna bukan anggota (status_member bukan "Y"), maka `harga_akhir` diatur
 
 ![foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20122909.png?raw=true)
 
+# hasil kode program
+![foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20125323.png?raw=true)
+
+
+## penggunaa `if`, `elif` dan `else 
+
+```python
+if operator == '+':
+    hasil = angka1 + angka2
+    print(f"Hasil: {angka1} + {angka2} = {hasil}")
+```
+Memeriksa apakah operator yang dimasukkan adalah `+`.
+Jika benar, maka kode menghitung jumlah `angka1` dan `angka2`, lalu mencetak hasilnya.
+
+```python
+elif operator == '-':
+    hasil = angka1 - angka2
+    print(f"Hasil: {angka1} - {angka2} = {hasil}")
+elif operator == '*':
+    hasil = angka1 * angka2
+    print(f"Hasil: {angka1} * {angka2} = {hasil}")
+```
+`elif` digunakan untuk memeriksa kondisi berikutnya, yaitu jika operator adalah `-` atau `*`.
+Setiap blok `elif` melakukan operasi yang sesuai (pengurangan atau perkalian) dan mencetak hasilnya.
+
+```python
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print(f"Hasil: {angka1} / {angka2} = {hasil}")
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan!")
+```
+Memeriksa apakah operator adalah `/`.
+Sebelum melakukan pembagian, kode memeriksa apakah `angka2` tidak sama dengan 0.
+Jika `angka2` tidak sama dengan 0, maka pembagian dilakukan dan hasilnya dicetak.
+Jika `angka`2 sama dengan 0, kode mencetak pesan kesalahan karena pembagian dengan nol tidak diperbolehkan.
+
+```python
+else:
+    print("Operator tidak valid! Silakan masukkan +, -, *, atau /.") 
+```
+Jika semua kondisi sebelumnya tidak terpenuhi (misalnya, pengguna memasukkan operator yang tidak valid), maka blok `else` dieksekusi.
+
+Program akan mencetak pesan bahwa operator tidak valid dan meminta pengguna untuk memasukkan operator yang benar.
 
 # Gambzr Flowchart
 ![Foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20092416.png?raw=true)
