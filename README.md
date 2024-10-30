@@ -101,3 +101,5 @@ Program akan mencetak pesan bahwa operator tidak valid dan meminta pengguna untu
 # Gambzr Flowchart
 ![Foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20092416.png?raw=true)
 
+# hasil kode program
+![foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20130221.png?raw=true)
