@@ -98,7 +98,7 @@ Jika semua kondisi sebelumnya tidak terpenuhi (misalnya, pengguna memasukkan ope
 
 Program akan mencetak pesan bahwa operator tidak valid dan meminta pengguna untuk memasukkan operator yang benar.
 
-# Gambzr Flowchart
+# Gambar Flowchart
 ![Foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20092416.png?raw=true)
 
 # hasil kode program
