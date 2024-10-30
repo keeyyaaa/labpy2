@@ -22,3 +22,7 @@ total_harga = harga_tiket * (1 - diskon_member) if status_member == "ya" else ha
 # Menampilkan hasil
 if harga_tiket != 0:
     print(f"Total harga yang harus dibayar: Rp{total_harga}")
+
+# Gambzr Flowchart
+![Foto](https://github.com/keeyyaaa/labpy2/blob/main/Screenshot%202024-10-30%20092416.png?raw=true)
+
